@@ -1,10 +1,12 @@
 {
-  "name": "calculator-app",
+  "name": "my-calculator-app",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "type": "module",
-  "bin": "index.js",
+  "bin": {
+    "my-calculator-app": "bin/index.js"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
